@@ -1,0 +1,47 @@
+body{
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 140%;
+}
+#circle{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: crimson;
+    border: 6px solid;
+    border-color: white;
+   
+}
+#btn{
+    color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    width:100px;
+    height: 50px;
+    font-weight: bold;
+    
+}
+#text{
+    margin-top: 20%;
+    
+}
+#start{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#gameArea{
+    height: 70%;
+}/*
+@keyframes example {
+    0%   {border-color: red;}
+    25%  {border-color: yellow; }
+    50%  {border-color: blue;}
+    100% {border-color: green;}
+  }
+  animation-name: example;
+  animation-duration: 1s;*/
