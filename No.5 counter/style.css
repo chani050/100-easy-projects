@@ -1,0 +1,41 @@
+body{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('background.jpg') center/cover no-repeat fixed;
+	font-family: arial;
+	text-align: center;
+	line-height: 10px;
+}
+#counter{
+	border: 3px solid;
+	border-color:white;
+	border-radius: 8px;
+	background:rgba(0,0,0,0.1);
+	width: 500px;
+	height: 500px;
+	margin-top:10%;
+}
+#button_div{
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+	color: white;
+	font-size: 45px;
+}
+#number{
+	font-size: 150px;
+}
+#wrapped{
+	color: yellow;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+	width: 100px;
+	background-color: transparent;
+	border: 3px solid;
+	height: 40px;
+	border-radius:8px;
+	border-color: white;
+}
